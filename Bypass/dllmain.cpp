@@ -2,7 +2,6 @@
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 
-// function to write to memory
 void writeMemory(
     uintptr_t const address,
     const void* bytes,
