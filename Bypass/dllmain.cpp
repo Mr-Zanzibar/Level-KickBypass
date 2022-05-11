@@ -27,7 +27,7 @@ DWORD WINAPI MainThread(void* hModule) {
     // enable the patches
     enablePatches();
 
-    return 0;
+    return 0; // 1 or 2 might be the best
 }
 
 BOOL APIENTRY DllMain(HMODULE hModule,
